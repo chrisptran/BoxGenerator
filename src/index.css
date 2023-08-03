@@ -7,7 +7,24 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.colorBox {
+  display: flex;
+  align-items: center;
+
+}
+
+.color {
+  margin-right: 10px;
+}
+
+textarea {
+  margin-right: 10px;
+}
+
+.formBox {
+  display: flex;
+}
+
+input[type='submit'] {
+  height: 30px;
 }
